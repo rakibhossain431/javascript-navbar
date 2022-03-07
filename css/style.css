@@ -3,6 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(54, 53, 53);
+}
 
 html{
     
@@ -92,7 +95,7 @@ html{
     background-image: url('../images/index.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    color:white;
+    color:hsl(208, 11%, 55%);
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.795);
    
@@ -103,6 +106,7 @@ html{
     text-align: center;
     height: 100vh;
 }
+
 .home-page h1{
     margin-bottom: 12px;
 }
@@ -126,6 +130,7 @@ html{
 .about{
     width: 100%;
     margin-bottom: 60px;
+    color:hsl(208, 11%, 55%)
 }
 .wrapper{
     width: 86%;
@@ -147,6 +152,7 @@ html{
     width: 100%;
     background-color: white;
     display: flex;
+    background-color: rgb(54, 53, 53);
 }
 .picture{
     
@@ -154,14 +160,14 @@ html{
 }
 .details img{
     height: 400px;
-    width: 100%;
+    width: 80%;
 }
 .text-box{
     width: 50%;
     display: flex;
     flex-direction: column;
     margin: auto;
-    background-color: white;
+    
 }
 .text-area{
     padding: 2% 0;
@@ -177,7 +183,9 @@ html{
 }
 /*  */
 .service{
-    margin-bottom: 8%;
+    margin-bottom: 50px;
+    color:hsl(208, 11%, 55%)
+
 
 }
 .services-box{
@@ -207,6 +215,9 @@ html{
    justify-content: space-between;
    margin: auto;  */
 }
+.Portfolio{
+    color:hsl(208, 11%, 55%)
+}
 .picture-box{
      display: flex;
     justify-content: space-between;
@@ -235,7 +246,7 @@ html{
 /*  */
 .footer{
     background: #000000e8;
-    widht:100%;
+    width:100%;
 }
 .footer-logo{
     /* margin-top: 150px; */
@@ -278,6 +289,7 @@ html{
     border-bottom: 1px solid white;
 }
 .socail-media{
+    
     width: 20%;
 
 }
